@@ -1,5 +1,8 @@
 # API Use Benchmark
 
+
+[Try the demo Colab: <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>](https://colab.research.google.com/github/ethanachi/api_use/blob/main/demo_colab.ipynb)
+
 The **Synthetic API Use** package aims to evaluate large language models (LLMs)' ability to
 perform tool use during code generation.
 Standard analysis of this nature is confounded by **memorization**--On one hand, common "coding
