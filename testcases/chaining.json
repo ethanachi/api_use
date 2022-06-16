@@ -1,0 +1,2082 @@
+{
+  "1_0_distort(pixels=5)_fewshot": {
+    "signature": "image.distort(pixels=5)",
+    "func_name": "distort_5_px",
+    "description": "distorts an image by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_0_distort(pixels=5),flip_horizontal()_fewshot": {
+    "signature": "image.distort(pixels=5).flip_horizontal()",
+    "func_name": "distort_5_px_then_flip_horizontal",
+    "description": "distorts an image by 5 pixels, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_0_distort(pixels=5),flip_horizontal(),rotate(degrees=60)_fewshot": {
+    "signature": "image.distort(pixels=5).flip_horizontal().rotate(degrees=60)",
+    "func_name": "distort_5_px_then_flip_horizontal_then_rotate_60_degrees",
+    "description": "distorts an image by 5 pixels, then flips it horizontally, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_0_distort(pixels=5),flip_horizontal(),rotate(degrees=60),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.distort(pixels=5).flip_horizontal().rotate(degrees=60).distort(pixels=image.get_width())",
+    "func_name": "distort_5_px_then_flip_horizontal_then_rotate_60_degrees_then_distort",
+    "description": "distorts an image by 5 pixels, then flips it horizontally, then rotates it 60 degrees, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_0_distort(pixels=5),flip_horizontal(),rotate(degrees=60),distort(pixels=image.get_width()),flip_vertical()_fewshot": {
+    "signature": "image.distort(pixels=5).flip_horizontal().rotate(degrees=60).distort(pixels=image.get_width()).flip_vertical()",
+    "func_name": "distort_5_px_then_flip_horizontal_then_rotate_60_degrees_then_distort_then_flip_vertical",
+    "description": "distorts an image by 5 pixels, then flips it horizontally, then rotates it 60 degrees, then distorts it by the width of the image, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_0_distort(pixels=5),flip_horizontal(),rotate(degrees=60),distort(pixels=image.get_width()),flip_vertical(),blur()_fewshot": {
+    "signature": "image.distort(pixels=5).flip_horizontal().rotate(degrees=60).distort(pixels=image.get_width()).flip_vertical().blur()",
+    "func_name": "distort_5_px_then_flip_horizontal_then_rotate_60_degrees_then_distort_then_flip_vertical_then_blur",
+    "description": "distorts an image by 5 pixels, then flips it horizontally, then rotates it 60 degrees, then distorts it by the width of the image, then flips it vertically, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_0_distort(pixels=5),flip_horizontal(),rotate(degrees=60),distort(pixels=image.get_width()),flip_vertical(),blur(),rotate()_fewshot": {
+    "signature": "image.distort(pixels=5).flip_horizontal().rotate(degrees=60).distort(pixels=image.get_width()).flip_vertical().blur().rotate()",
+    "func_name": "distort_5_px_then_flip_horizontal_then_rotate_60_degrees_then_distort_then_flip_vertical_then_blur_then_rotate",
+    "description": "distorts an image by 5 pixels, then flips it horizontally, then rotates it 60 degrees, then distorts it by the width of the image, then flips it vertically, then blurs it by the given number of pixels, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_0_distort(pixels=5),flip_horizontal(),rotate(degrees=60),distort(pixels=image.get_width()),flip_vertical(),blur(),rotate(),rotate(degrees=30)_fewshot": {
+    "signature": "image.distort(pixels=5).flip_horizontal().rotate(degrees=60).distort(pixels=image.get_width()).flip_vertical().blur().rotate().rotate(degrees=30)",
+    "func_name": "distort_5_px_then_flip_horizontal_then_rotate_60_degrees_then_distort_then_flip_vertical_then_blur_then_rotate_then_rotate_30_degrees",
+    "description": "distorts an image by 5 pixels, then flips it horizontally, then rotates it 60 degrees, then distorts it by the width of the image, then flips it vertically, then blurs it by the given number of pixels, then rotates it by the given number of degrees, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_1_distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.distort(pixels=image.get_width())",
+    "func_name": "distort",
+    "description": "distorts an image by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_1_distort(pixels=image.get_width()),rotate()_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate()",
+    "func_name": "distort_then_rotate",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_1_distort(pixels=image.get_width()),rotate(),flip_horizontal()_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().flip_horizontal()",
+    "func_name": "distort_then_rotate_then_flip_horizontal",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_1_distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60)_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60)",
+    "func_name": "distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_1_distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60),blur()_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60).blur()",
+    "func_name": "distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees_then_blur",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_1_distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60),blur(),flip_vertical()_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60).blur().flip_vertical()",
+    "func_name": "distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees_then_blur_then_flip_vertical",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees, then blurs it by the given number of pixels, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_1_distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60),blur(),flip_vertical(),blur(pixels=10)_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60).blur().flip_vertical().blur(pixels=10)",
+    "func_name": "distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees_then_blur_then_flip_vertical_then_blur_10_px",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees, then blurs it by the given number of pixels, then flips it vertically, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_1_distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60),blur(),flip_vertical(),blur(pixels=10),distort(pixels=5)_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60).blur().flip_vertical().blur(pixels=10).distort(pixels=5)",
+    "func_name": "distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees_then_blur_then_flip_vertical_then_blur_10_px_then_distort_5_px",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees, then blurs it by the given number of pixels, then flips it vertically, then blurs it by 10 pixels, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_2_rotate(degrees=60)_fewshot": {
+    "signature": "image.rotate(degrees=60)",
+    "func_name": "rotate_60_degrees",
+    "description": "rotates an image 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_2_rotate(degrees=60),rotate()_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate()",
+    "func_name": "rotate_60_degrees_then_rotate",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_2_rotate(degrees=60),rotate(),flip_horizontal()_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_horizontal()",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_horizontal",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_2_rotate(degrees=60),rotate(),flip_horizontal(),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_horizontal().distort(pixels=image.get_width())",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_horizontal_then_distort",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it horizontally, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_2_rotate(degrees=60),rotate(),flip_horizontal(),distort(pixels=image.get_width()),blur(pixels=10)_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_horizontal().distort(pixels=image.get_width()).blur(pixels=10)",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_horizontal_then_distort_then_blur_10_px",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it horizontally, then distorts it by the width of the image, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_2_rotate(degrees=60),rotate(),flip_horizontal(),distort(pixels=image.get_width()),blur(pixels=10),rotate(degrees=30)_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_horizontal().distort(pixels=image.get_width()).blur(pixels=10).rotate(degrees=30)",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_horizontal_then_distort_then_blur_10_px_then_rotate_30_degrees",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it horizontally, then distorts it by the width of the image, then blurs it by 10 pixels, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_2_rotate(degrees=60),rotate(),flip_horizontal(),distort(pixels=image.get_width()),blur(pixels=10),rotate(degrees=30),flip_vertical()_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_horizontal().distort(pixels=image.get_width()).blur(pixels=10).rotate(degrees=30).flip_vertical()",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_horizontal_then_distort_then_blur_10_px_then_rotate_30_degrees_then_flip_vertical",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it horizontally, then distorts it by the width of the image, then blurs it by 10 pixels, then rotates it 30 degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_2_rotate(degrees=60),rotate(),flip_horizontal(),distort(pixels=image.get_width()),blur(pixels=10),rotate(degrees=30),flip_vertical(),distort(pixels=5)_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_horizontal().distort(pixels=image.get_width()).blur(pixels=10).rotate(degrees=30).flip_vertical().distort(pixels=5)",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_horizontal_then_distort_then_blur_10_px_then_rotate_30_degrees_then_flip_vertical_then_distort_5_px",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it horizontally, then distorts it by the width of the image, then blurs it by 10 pixels, then rotates it 30 degrees, then flips it vertically, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_3_blur()_fewshot": {
+    "signature": "image.blur()",
+    "func_name": "blur",
+    "description": "blurs an image by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_3_blur(),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.blur().distort(pixels=image.get_width())",
+    "func_name": "blur_then_distort",
+    "description": "blurs an image by the given number of pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_3_blur(),distort(pixels=image.get_width()),blur(pixels=10)_fewshot": {
+    "signature": "image.blur().distort(pixels=image.get_width()).blur(pixels=10)",
+    "func_name": "blur_then_distort_then_blur_10_px",
+    "description": "blurs an image by the given number of pixels, then distorts it by the width of the image, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_3_blur(),distort(pixels=image.get_width()),blur(pixels=10),flip_vertical()_fewshot": {
+    "signature": "image.blur().distort(pixels=image.get_width()).blur(pixels=10).flip_vertical()",
+    "func_name": "blur_then_distort_then_blur_10_px_then_flip_vertical",
+    "description": "blurs an image by the given number of pixels, then distorts it by the width of the image, then blurs it by 10 pixels, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_3_blur(),distort(pixels=image.get_width()),blur(pixels=10),flip_vertical(),flip_horizontal()_fewshot": {
+    "signature": "image.blur().distort(pixels=image.get_width()).blur(pixels=10).flip_vertical().flip_horizontal()",
+    "func_name": "blur_then_distort_then_blur_10_px_then_flip_vertical_then_flip_horizontal",
+    "description": "blurs an image by the given number of pixels, then distorts it by the width of the image, then blurs it by 10 pixels, then flips it vertically, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_3_blur(),distort(pixels=image.get_width()),blur(pixels=10),flip_vertical(),flip_horizontal(),rotate(degrees=60)_fewshot": {
+    "signature": "image.blur().distort(pixels=image.get_width()).blur(pixels=10).flip_vertical().flip_horizontal().rotate(degrees=60)",
+    "func_name": "blur_then_distort_then_blur_10_px_then_flip_vertical_then_flip_horizontal_then_rotate_60_degrees",
+    "description": "blurs an image by the given number of pixels, then distorts it by the width of the image, then blurs it by 10 pixels, then flips it vertically, then flips it horizontally, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_3_blur(),distort(pixels=image.get_width()),blur(pixels=10),flip_vertical(),flip_horizontal(),rotate(degrees=60),distort(pixels=5)_fewshot": {
+    "signature": "image.blur().distort(pixels=image.get_width()).blur(pixels=10).flip_vertical().flip_horizontal().rotate(degrees=60).distort(pixels=5)",
+    "func_name": "blur_then_distort_then_blur_10_px_then_flip_vertical_then_flip_horizontal_then_rotate_60_degrees_then_distort_5_px",
+    "description": "blurs an image by the given number of pixels, then distorts it by the width of the image, then blurs it by 10 pixels, then flips it vertically, then flips it horizontally, then rotates it 60 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_3_blur(),distort(pixels=image.get_width()),blur(pixels=10),flip_vertical(),flip_horizontal(),rotate(degrees=60),distort(pixels=5),rotate(degrees=30)_fewshot": {
+    "signature": "image.blur().distort(pixels=image.get_width()).blur(pixels=10).flip_vertical().flip_horizontal().rotate(degrees=60).distort(pixels=5).rotate(degrees=30)",
+    "func_name": "blur_then_distort_then_blur_10_px_then_flip_vertical_then_flip_horizontal_then_rotate_60_degrees_then_distort_5_px_then_rotate_30_degrees",
+    "description": "blurs an image by the given number of pixels, then distorts it by the width of the image, then blurs it by 10 pixels, then flips it vertically, then flips it horizontally, then rotates it 60 degrees, then distorts it by 5 pixels, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_4_blur()_fewshot": {
+    "signature": "image.blur()",
+    "func_name": "blur",
+    "description": "blurs an image by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_4_blur(),flip_vertical()_fewshot": {
+    "signature": "image.blur().flip_vertical()",
+    "func_name": "blur_then_flip_vertical",
+    "description": "blurs an image by the given number of pixels, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_4_blur(),flip_vertical(),rotate(degrees=60)_fewshot": {
+    "signature": "image.blur().flip_vertical().rotate(degrees=60)",
+    "func_name": "blur_then_flip_vertical_then_rotate_60_degrees",
+    "description": "blurs an image by the given number of pixels, then flips it vertically, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_4_blur(),flip_vertical(),rotate(degrees=60),rotate(degrees=30)_fewshot": {
+    "signature": "image.blur().flip_vertical().rotate(degrees=60).rotate(degrees=30)",
+    "func_name": "blur_then_flip_vertical_then_rotate_60_degrees_then_rotate_30_degrees",
+    "description": "blurs an image by the given number of pixels, then flips it vertically, then rotates it 60 degrees, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_4_blur(),flip_vertical(),rotate(degrees=60),rotate(degrees=30),flip_horizontal()_fewshot": {
+    "signature": "image.blur().flip_vertical().rotate(degrees=60).rotate(degrees=30).flip_horizontal()",
+    "func_name": "blur_then_flip_vertical_then_rotate_60_degrees_then_rotate_30_degrees_then_flip_horizontal",
+    "description": "blurs an image by the given number of pixels, then flips it vertically, then rotates it 60 degrees, then rotates it 30 degrees, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_4_blur(),flip_vertical(),rotate(degrees=60),rotate(degrees=30),flip_horizontal(),blur(pixels=10)_fewshot": {
+    "signature": "image.blur().flip_vertical().rotate(degrees=60).rotate(degrees=30).flip_horizontal().blur(pixels=10)",
+    "func_name": "blur_then_flip_vertical_then_rotate_60_degrees_then_rotate_30_degrees_then_flip_horizontal_then_blur_10_px",
+    "description": "blurs an image by the given number of pixels, then flips it vertically, then rotates it 60 degrees, then rotates it 30 degrees, then flips it horizontally, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_4_blur(),flip_vertical(),rotate(degrees=60),rotate(degrees=30),flip_horizontal(),blur(pixels=10),distort(pixels=5)_fewshot": {
+    "signature": "image.blur().flip_vertical().rotate(degrees=60).rotate(degrees=30).flip_horizontal().blur(pixels=10).distort(pixels=5)",
+    "func_name": "blur_then_flip_vertical_then_rotate_60_degrees_then_rotate_30_degrees_then_flip_horizontal_then_blur_10_px_then_distort_5_px",
+    "description": "blurs an image by the given number of pixels, then flips it vertically, then rotates it 60 degrees, then rotates it 30 degrees, then flips it horizontally, then blurs it by 10 pixels, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_4_blur(),flip_vertical(),rotate(degrees=60),rotate(degrees=30),flip_horizontal(),blur(pixels=10),distort(pixels=5),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.blur().flip_vertical().rotate(degrees=60).rotate(degrees=30).flip_horizontal().blur(pixels=10).distort(pixels=5).distort(pixels=image.get_width())",
+    "func_name": "blur_then_flip_vertical_then_rotate_60_degrees_then_rotate_30_degrees_then_flip_horizontal_then_blur_10_px_then_distort_5_px_then_distort",
+    "description": "blurs an image by the given number of pixels, then flips it vertically, then rotates it 60 degrees, then rotates it 30 degrees, then flips it horizontally, then blurs it by 10 pixels, then distorts it by 5 pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_5_flip_vertical()_fewshot": {
+    "signature": "image.flip_vertical()",
+    "func_name": "flip_vertical",
+    "description": "flips an image vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_5_flip_vertical(),rotate(degrees=30)_fewshot": {
+    "signature": "image.flip_vertical().rotate(degrees=30)",
+    "func_name": "flip_vertical_then_rotate_30_degrees",
+    "description": "flips an image vertically, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_5_flip_vertical(),rotate(degrees=30),distort(pixels=5)_fewshot": {
+    "signature": "image.flip_vertical().rotate(degrees=30).distort(pixels=5)",
+    "func_name": "flip_vertical_then_rotate_30_degrees_then_distort_5_px",
+    "description": "flips an image vertically, then rotates it 30 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_5_flip_vertical(),rotate(degrees=30),distort(pixels=5),blur(pixels=10)_fewshot": {
+    "signature": "image.flip_vertical().rotate(degrees=30).distort(pixels=5).blur(pixels=10)",
+    "func_name": "flip_vertical_then_rotate_30_degrees_then_distort_5_px_then_blur_10_px",
+    "description": "flips an image vertically, then rotates it 30 degrees, then distorts it by 5 pixels, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_5_flip_vertical(),rotate(degrees=30),distort(pixels=5),blur(pixels=10),flip_horizontal()_fewshot": {
+    "signature": "image.flip_vertical().rotate(degrees=30).distort(pixels=5).blur(pixels=10).flip_horizontal()",
+    "func_name": "flip_vertical_then_rotate_30_degrees_then_distort_5_px_then_blur_10_px_then_flip_horizontal",
+    "description": "flips an image vertically, then rotates it 30 degrees, then distorts it by 5 pixels, then blurs it by 10 pixels, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_5_flip_vertical(),rotate(degrees=30),distort(pixels=5),blur(pixels=10),flip_horizontal(),rotate(degrees=60)_fewshot": {
+    "signature": "image.flip_vertical().rotate(degrees=30).distort(pixels=5).blur(pixels=10).flip_horizontal().rotate(degrees=60)",
+    "func_name": "flip_vertical_then_rotate_30_degrees_then_distort_5_px_then_blur_10_px_then_flip_horizontal_then_rotate_60_degrees",
+    "description": "flips an image vertically, then rotates it 30 degrees, then distorts it by 5 pixels, then blurs it by 10 pixels, then flips it horizontally, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_5_flip_vertical(),rotate(degrees=30),distort(pixels=5),blur(pixels=10),flip_horizontal(),rotate(degrees=60),rotate()_fewshot": {
+    "signature": "image.flip_vertical().rotate(degrees=30).distort(pixels=5).blur(pixels=10).flip_horizontal().rotate(degrees=60).rotate()",
+    "func_name": "flip_vertical_then_rotate_30_degrees_then_distort_5_px_then_blur_10_px_then_flip_horizontal_then_rotate_60_degrees_then_rotate",
+    "description": "flips an image vertically, then rotates it 30 degrees, then distorts it by 5 pixels, then blurs it by 10 pixels, then flips it horizontally, then rotates it 60 degrees, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_5_flip_vertical(),rotate(degrees=30),distort(pixels=5),blur(pixels=10),flip_horizontal(),rotate(degrees=60),rotate(),blur()_fewshot": {
+    "signature": "image.flip_vertical().rotate(degrees=30).distort(pixels=5).blur(pixels=10).flip_horizontal().rotate(degrees=60).rotate().blur()",
+    "func_name": "flip_vertical_then_rotate_30_degrees_then_distort_5_px_then_blur_10_px_then_flip_horizontal_then_rotate_60_degrees_then_rotate_then_blur",
+    "description": "flips an image vertically, then rotates it 30 degrees, then distorts it by 5 pixels, then blurs it by 10 pixels, then flips it horizontally, then rotates it 60 degrees, then rotates it by the given number of degrees, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_6_rotate()_fewshot": {
+    "signature": "image.rotate()",
+    "func_name": "rotate",
+    "description": "rotates an image by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_6_rotate(),blur(pixels=10)_fewshot": {
+    "signature": "image.rotate().blur(pixels=10)",
+    "func_name": "rotate_then_blur_10_px",
+    "description": "rotates an image by the given number of degrees, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_6_rotate(),blur(pixels=10),distort(pixels=5)_fewshot": {
+    "signature": "image.rotate().blur(pixels=10).distort(pixels=5)",
+    "func_name": "rotate_then_blur_10_px_then_distort_5_px",
+    "description": "rotates an image by the given number of degrees, then blurs it by 10 pixels, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_6_rotate(),blur(pixels=10),distort(pixels=5),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.rotate().blur(pixels=10).distort(pixels=5).distort(pixels=image.get_width())",
+    "func_name": "rotate_then_blur_10_px_then_distort_5_px_then_distort",
+    "description": "rotates an image by the given number of degrees, then blurs it by 10 pixels, then distorts it by 5 pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_6_rotate(),blur(pixels=10),distort(pixels=5),distort(pixels=image.get_width()),rotate(degrees=60)_fewshot": {
+    "signature": "image.rotate().blur(pixels=10).distort(pixels=5).distort(pixels=image.get_width()).rotate(degrees=60)",
+    "func_name": "rotate_then_blur_10_px_then_distort_5_px_then_distort_then_rotate_60_degrees",
+    "description": "rotates an image by the given number of degrees, then blurs it by 10 pixels, then distorts it by 5 pixels, then distorts it by the width of the image, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_6_rotate(),blur(pixels=10),distort(pixels=5),distort(pixels=image.get_width()),rotate(degrees=60),flip_vertical()_fewshot": {
+    "signature": "image.rotate().blur(pixels=10).distort(pixels=5).distort(pixels=image.get_width()).rotate(degrees=60).flip_vertical()",
+    "func_name": "rotate_then_blur_10_px_then_distort_5_px_then_distort_then_rotate_60_degrees_then_flip_vertical",
+    "description": "rotates an image by the given number of degrees, then blurs it by 10 pixels, then distorts it by 5 pixels, then distorts it by the width of the image, then rotates it 60 degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_6_rotate(),blur(pixels=10),distort(pixels=5),distort(pixels=image.get_width()),rotate(degrees=60),flip_vertical(),blur()_fewshot": {
+    "signature": "image.rotate().blur(pixels=10).distort(pixels=5).distort(pixels=image.get_width()).rotate(degrees=60).flip_vertical().blur()",
+    "func_name": "rotate_then_blur_10_px_then_distort_5_px_then_distort_then_rotate_60_degrees_then_flip_vertical_then_blur",
+    "description": "rotates an image by the given number of degrees, then blurs it by 10 pixels, then distorts it by 5 pixels, then distorts it by the width of the image, then rotates it 60 degrees, then flips it vertically, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_6_rotate(),blur(pixels=10),distort(pixels=5),distort(pixels=image.get_width()),rotate(degrees=60),flip_vertical(),blur(),flip_horizontal()_fewshot": {
+    "signature": "image.rotate().blur(pixels=10).distort(pixels=5).distort(pixels=image.get_width()).rotate(degrees=60).flip_vertical().blur().flip_horizontal()",
+    "func_name": "rotate_then_blur_10_px_then_distort_5_px_then_distort_then_rotate_60_degrees_then_flip_vertical_then_blur_then_flip_horizontal",
+    "description": "rotates an image by the given number of degrees, then blurs it by 10 pixels, then distorts it by 5 pixels, then distorts it by the width of the image, then rotates it 60 degrees, then flips it vertically, then blurs it by the given number of pixels, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_7_rotate(degrees=30)_fewshot": {
+    "signature": "image.rotate(degrees=30)",
+    "func_name": "rotate_30_degrees",
+    "description": "rotates an image 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_7_rotate(degrees=30),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.rotate(degrees=30).distort(pixels=image.get_width())",
+    "func_name": "rotate_30_degrees_then_distort",
+    "description": "rotates an image 30 degrees, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_7_rotate(degrees=30),distort(pixels=image.get_width()),blur()_fewshot": {
+    "signature": "image.rotate(degrees=30).distort(pixels=image.get_width()).blur()",
+    "func_name": "rotate_30_degrees_then_distort_then_blur",
+    "description": "rotates an image 30 degrees, then distorts it by the width of the image, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_7_rotate(degrees=30),distort(pixels=image.get_width()),blur(),flip_horizontal()_fewshot": {
+    "signature": "image.rotate(degrees=30).distort(pixels=image.get_width()).blur().flip_horizontal()",
+    "func_name": "rotate_30_degrees_then_distort_then_blur_then_flip_horizontal",
+    "description": "rotates an image 30 degrees, then distorts it by the width of the image, then blurs it by the given number of pixels, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_7_rotate(degrees=30),distort(pixels=image.get_width()),blur(),flip_horizontal(),rotate(degrees=60)_fewshot": {
+    "signature": "image.rotate(degrees=30).distort(pixels=image.get_width()).blur().flip_horizontal().rotate(degrees=60)",
+    "func_name": "rotate_30_degrees_then_distort_then_blur_then_flip_horizontal_then_rotate_60_degrees",
+    "description": "rotates an image 30 degrees, then distorts it by the width of the image, then blurs it by the given number of pixels, then flips it horizontally, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_7_rotate(degrees=30),distort(pixels=image.get_width()),blur(),flip_horizontal(),rotate(degrees=60),flip_vertical()_fewshot": {
+    "signature": "image.rotate(degrees=30).distort(pixels=image.get_width()).blur().flip_horizontal().rotate(degrees=60).flip_vertical()",
+    "func_name": "rotate_30_degrees_then_distort_then_blur_then_flip_horizontal_then_rotate_60_degrees_then_flip_vertical",
+    "description": "rotates an image 30 degrees, then distorts it by the width of the image, then blurs it by the given number of pixels, then flips it horizontally, then rotates it 60 degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_7_rotate(degrees=30),distort(pixels=image.get_width()),blur(),flip_horizontal(),rotate(degrees=60),flip_vertical(),blur(pixels=10)_fewshot": {
+    "signature": "image.rotate(degrees=30).distort(pixels=image.get_width()).blur().flip_horizontal().rotate(degrees=60).flip_vertical().blur(pixels=10)",
+    "func_name": "rotate_30_degrees_then_distort_then_blur_then_flip_horizontal_then_rotate_60_degrees_then_flip_vertical_then_blur_10_px",
+    "description": "rotates an image 30 degrees, then distorts it by the width of the image, then blurs it by the given number of pixels, then flips it horizontally, then rotates it 60 degrees, then flips it vertically, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_7_rotate(degrees=30),distort(pixels=image.get_width()),blur(),flip_horizontal(),rotate(degrees=60),flip_vertical(),blur(pixels=10),distort(pixels=5)_fewshot": {
+    "signature": "image.rotate(degrees=30).distort(pixels=image.get_width()).blur().flip_horizontal().rotate(degrees=60).flip_vertical().blur(pixels=10).distort(pixels=5)",
+    "func_name": "rotate_30_degrees_then_distort_then_blur_then_flip_horizontal_then_rotate_60_degrees_then_flip_vertical_then_blur_10_px_then_distort_5_px",
+    "description": "rotates an image 30 degrees, then distorts it by the width of the image, then blurs it by the given number of pixels, then flips it horizontally, then rotates it 60 degrees, then flips it vertically, then blurs it by 10 pixels, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_8_blur()_fewshot": {
+    "signature": "image.blur()",
+    "func_name": "blur",
+    "description": "blurs an image by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_8_blur(),rotate(degrees=30)_fewshot": {
+    "signature": "image.blur().rotate(degrees=30)",
+    "func_name": "blur_then_rotate_30_degrees",
+    "description": "blurs an image by the given number of pixels, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_8_blur(),rotate(degrees=30),flip_horizontal()_fewshot": {
+    "signature": "image.blur().rotate(degrees=30).flip_horizontal()",
+    "func_name": "blur_then_rotate_30_degrees_then_flip_horizontal",
+    "description": "blurs an image by the given number of pixels, then rotates it 30 degrees, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_8_blur(),rotate(degrees=30),flip_horizontal(),rotate()_fewshot": {
+    "signature": "image.blur().rotate(degrees=30).flip_horizontal().rotate()",
+    "func_name": "blur_then_rotate_30_degrees_then_flip_horizontal_then_rotate",
+    "description": "blurs an image by the given number of pixels, then rotates it 30 degrees, then flips it horizontally, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_8_blur(),rotate(degrees=30),flip_horizontal(),rotate(),blur(pixels=10)_fewshot": {
+    "signature": "image.blur().rotate(degrees=30).flip_horizontal().rotate().blur(pixels=10)",
+    "func_name": "blur_then_rotate_30_degrees_then_flip_horizontal_then_rotate_then_blur_10_px",
+    "description": "blurs an image by the given number of pixels, then rotates it 30 degrees, then flips it horizontally, then rotates it by the given number of degrees, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_8_blur(),rotate(degrees=30),flip_horizontal(),rotate(),blur(pixels=10),rotate(degrees=60)_fewshot": {
+    "signature": "image.blur().rotate(degrees=30).flip_horizontal().rotate().blur(pixels=10).rotate(degrees=60)",
+    "func_name": "blur_then_rotate_30_degrees_then_flip_horizontal_then_rotate_then_blur_10_px_then_rotate_60_degrees",
+    "description": "blurs an image by the given number of pixels, then rotates it 30 degrees, then flips it horizontally, then rotates it by the given number of degrees, then blurs it by 10 pixels, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_8_blur(),rotate(degrees=30),flip_horizontal(),rotate(),blur(pixels=10),rotate(degrees=60),distort(pixels=5)_fewshot": {
+    "signature": "image.blur().rotate(degrees=30).flip_horizontal().rotate().blur(pixels=10).rotate(degrees=60).distort(pixels=5)",
+    "func_name": "blur_then_rotate_30_degrees_then_flip_horizontal_then_rotate_then_blur_10_px_then_rotate_60_degrees_then_distort_5_px",
+    "description": "blurs an image by the given number of pixels, then rotates it 30 degrees, then flips it horizontally, then rotates it by the given number of degrees, then blurs it by 10 pixels, then rotates it 60 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_8_blur(),rotate(degrees=30),flip_horizontal(),rotate(),blur(pixels=10),rotate(degrees=60),distort(pixels=5),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.blur().rotate(degrees=30).flip_horizontal().rotate().blur(pixels=10).rotate(degrees=60).distort(pixels=5).distort(pixels=image.get_width())",
+    "func_name": "blur_then_rotate_30_degrees_then_flip_horizontal_then_rotate_then_blur_10_px_then_rotate_60_degrees_then_distort_5_px_then_distort",
+    "description": "blurs an image by the given number of pixels, then rotates it 30 degrees, then flips it horizontally, then rotates it by the given number of degrees, then blurs it by 10 pixels, then rotates it 60 degrees, then distorts it by 5 pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_9_blur(pixels=10)_fewshot": {
+    "signature": "image.blur(pixels=10)",
+    "func_name": "blur_10_px",
+    "description": "blurs an image by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_9_blur(pixels=10),rotate(degrees=30)_fewshot": {
+    "signature": "image.blur(pixels=10).rotate(degrees=30)",
+    "func_name": "blur_10_px_then_rotate_30_degrees",
+    "description": "blurs an image by 10 pixels, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_9_blur(pixels=10),rotate(degrees=30),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.blur(pixels=10).rotate(degrees=30).distort(pixels=image.get_width())",
+    "func_name": "blur_10_px_then_rotate_30_degrees_then_distort",
+    "description": "blurs an image by 10 pixels, then rotates it 30 degrees, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_9_blur(pixels=10),rotate(degrees=30),distort(pixels=image.get_width()),rotate()_fewshot": {
+    "signature": "image.blur(pixels=10).rotate(degrees=30).distort(pixels=image.get_width()).rotate()",
+    "func_name": "blur_10_px_then_rotate_30_degrees_then_distort_then_rotate",
+    "description": "blurs an image by 10 pixels, then rotates it 30 degrees, then distorts it by the width of the image, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_9_blur(pixels=10),rotate(degrees=30),distort(pixels=image.get_width()),rotate(),flip_horizontal()_fewshot": {
+    "signature": "image.blur(pixels=10).rotate(degrees=30).distort(pixels=image.get_width()).rotate().flip_horizontal()",
+    "func_name": "blur_10_px_then_rotate_30_degrees_then_distort_then_rotate_then_flip_horizontal",
+    "description": "blurs an image by 10 pixels, then rotates it 30 degrees, then distorts it by the width of the image, then rotates it by the given number of degrees, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_9_blur(pixels=10),rotate(degrees=30),distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60)_fewshot": {
+    "signature": "image.blur(pixels=10).rotate(degrees=30).distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60)",
+    "func_name": "blur_10_px_then_rotate_30_degrees_then_distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees",
+    "description": "blurs an image by 10 pixels, then rotates it 30 degrees, then distorts it by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_9_blur(pixels=10),rotate(degrees=30),distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60),flip_vertical()_fewshot": {
+    "signature": "image.blur(pixels=10).rotate(degrees=30).distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60).flip_vertical()",
+    "func_name": "blur_10_px_then_rotate_30_degrees_then_distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees_then_flip_vertical",
+    "description": "blurs an image by 10 pixels, then rotates it 30 degrees, then distorts it by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_9_blur(pixels=10),rotate(degrees=30),distort(pixels=image.get_width()),rotate(),flip_horizontal(),rotate(degrees=60),flip_vertical(),distort(pixels=5)_fewshot": {
+    "signature": "image.blur(pixels=10).rotate(degrees=30).distort(pixels=image.get_width()).rotate().flip_horizontal().rotate(degrees=60).flip_vertical().distort(pixels=5)",
+    "func_name": "blur_10_px_then_rotate_30_degrees_then_distort_then_rotate_then_flip_horizontal_then_rotate_60_degrees_then_flip_vertical_then_distort_5_px",
+    "description": "blurs an image by 10 pixels, then rotates it 30 degrees, then distorts it by the width of the image, then rotates it by the given number of degrees, then flips it horizontally, then rotates it 60 degrees, then flips it vertically, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_10_rotate(degrees=60)_fewshot": {
+    "signature": "image.rotate(degrees=60)",
+    "func_name": "rotate_60_degrees",
+    "description": "rotates an image 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_10_rotate(degrees=60),distort(pixels=5)_fewshot": {
+    "signature": "image.rotate(degrees=60).distort(pixels=5)",
+    "func_name": "rotate_60_degrees_then_distort_5_px",
+    "description": "rotates an image 60 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_10_rotate(degrees=60),distort(pixels=5),blur()_fewshot": {
+    "signature": "image.rotate(degrees=60).distort(pixels=5).blur()",
+    "func_name": "rotate_60_degrees_then_distort_5_px_then_blur",
+    "description": "rotates an image 60 degrees, then distorts it by 5 pixels, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_10_rotate(degrees=60),distort(pixels=5),blur(),flip_vertical()_fewshot": {
+    "signature": "image.rotate(degrees=60).distort(pixels=5).blur().flip_vertical()",
+    "func_name": "rotate_60_degrees_then_distort_5_px_then_blur_then_flip_vertical",
+    "description": "rotates an image 60 degrees, then distorts it by 5 pixels, then blurs it by the given number of pixels, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_10_rotate(degrees=60),distort(pixels=5),blur(),flip_vertical(),flip_horizontal()_fewshot": {
+    "signature": "image.rotate(degrees=60).distort(pixels=5).blur().flip_vertical().flip_horizontal()",
+    "func_name": "rotate_60_degrees_then_distort_5_px_then_blur_then_flip_vertical_then_flip_horizontal",
+    "description": "rotates an image 60 degrees, then distorts it by 5 pixels, then blurs it by the given number of pixels, then flips it vertically, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_10_rotate(degrees=60),distort(pixels=5),blur(),flip_vertical(),flip_horizontal(),rotate()_fewshot": {
+    "signature": "image.rotate(degrees=60).distort(pixels=5).blur().flip_vertical().flip_horizontal().rotate()",
+    "func_name": "rotate_60_degrees_then_distort_5_px_then_blur_then_flip_vertical_then_flip_horizontal_then_rotate",
+    "description": "rotates an image 60 degrees, then distorts it by 5 pixels, then blurs it by the given number of pixels, then flips it vertically, then flips it horizontally, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_10_rotate(degrees=60),distort(pixels=5),blur(),flip_vertical(),flip_horizontal(),rotate(),blur(pixels=10)_fewshot": {
+    "signature": "image.rotate(degrees=60).distort(pixels=5).blur().flip_vertical().flip_horizontal().rotate().blur(pixels=10)",
+    "func_name": "rotate_60_degrees_then_distort_5_px_then_blur_then_flip_vertical_then_flip_horizontal_then_rotate_then_blur_10_px",
+    "description": "rotates an image 60 degrees, then distorts it by 5 pixels, then blurs it by the given number of pixels, then flips it vertically, then flips it horizontally, then rotates it by the given number of degrees, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_10_rotate(degrees=60),distort(pixels=5),blur(),flip_vertical(),flip_horizontal(),rotate(),blur(pixels=10),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.rotate(degrees=60).distort(pixels=5).blur().flip_vertical().flip_horizontal().rotate().blur(pixels=10).distort(pixels=image.get_width())",
+    "func_name": "rotate_60_degrees_then_distort_5_px_then_blur_then_flip_vertical_then_flip_horizontal_then_rotate_then_blur_10_px_then_distort",
+    "description": "rotates an image 60 degrees, then distorts it by 5 pixels, then blurs it by the given number of pixels, then flips it vertically, then flips it horizontally, then rotates it by the given number of degrees, then blurs it by 10 pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_11_blur(pixels=10)_fewshot": {
+    "signature": "image.blur(pixels=10)",
+    "func_name": "blur_10_px",
+    "description": "blurs an image by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_11_blur(pixels=10),flip_horizontal()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_horizontal()",
+    "func_name": "blur_10_px_then_flip_horizontal",
+    "description": "blurs an image by 10 pixels, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_11_blur(pixels=10),flip_horizontal(),blur()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_horizontal().blur()",
+    "func_name": "blur_10_px_then_flip_horizontal_then_blur",
+    "description": "blurs an image by 10 pixels, then flips it horizontally, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_11_blur(pixels=10),flip_horizontal(),blur(),flip_vertical()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_horizontal().blur().flip_vertical()",
+    "func_name": "blur_10_px_then_flip_horizontal_then_blur_then_flip_vertical",
+    "description": "blurs an image by 10 pixels, then flips it horizontally, then blurs it by the given number of pixels, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_11_blur(pixels=10),flip_horizontal(),blur(),flip_vertical(),rotate(degrees=30)_fewshot": {
+    "signature": "image.blur(pixels=10).flip_horizontal().blur().flip_vertical().rotate(degrees=30)",
+    "func_name": "blur_10_px_then_flip_horizontal_then_blur_then_flip_vertical_then_rotate_30_degrees",
+    "description": "blurs an image by 10 pixels, then flips it horizontally, then blurs it by the given number of pixels, then flips it vertically, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_11_blur(pixels=10),flip_horizontal(),blur(),flip_vertical(),rotate(degrees=30),rotate()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_horizontal().blur().flip_vertical().rotate(degrees=30).rotate()",
+    "func_name": "blur_10_px_then_flip_horizontal_then_blur_then_flip_vertical_then_rotate_30_degrees_then_rotate",
+    "description": "blurs an image by 10 pixels, then flips it horizontally, then blurs it by the given number of pixels, then flips it vertically, then rotates it 30 degrees, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_11_blur(pixels=10),flip_horizontal(),blur(),flip_vertical(),rotate(degrees=30),rotate(),rotate(degrees=60)_fewshot": {
+    "signature": "image.blur(pixels=10).flip_horizontal().blur().flip_vertical().rotate(degrees=30).rotate().rotate(degrees=60)",
+    "func_name": "blur_10_px_then_flip_horizontal_then_blur_then_flip_vertical_then_rotate_30_degrees_then_rotate_then_rotate_60_degrees",
+    "description": "blurs an image by 10 pixels, then flips it horizontally, then blurs it by the given number of pixels, then flips it vertically, then rotates it 30 degrees, then rotates it by the given number of degrees, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_11_blur(pixels=10),flip_horizontal(),blur(),flip_vertical(),rotate(degrees=30),rotate(),rotate(degrees=60),distort(pixels=5)_fewshot": {
+    "signature": "image.blur(pixels=10).flip_horizontal().blur().flip_vertical().rotate(degrees=30).rotate().rotate(degrees=60).distort(pixels=5)",
+    "func_name": "blur_10_px_then_flip_horizontal_then_blur_then_flip_vertical_then_rotate_30_degrees_then_rotate_then_rotate_60_degrees_then_distort_5_px",
+    "description": "blurs an image by 10 pixels, then flips it horizontally, then blurs it by the given number of pixels, then flips it vertically, then rotates it 30 degrees, then rotates it by the given number of degrees, then rotates it 60 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_12_blur(pixels=10)_fewshot": {
+    "signature": "image.blur(pixels=10)",
+    "func_name": "blur_10_px",
+    "description": "blurs an image by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_12_blur(pixels=10),flip_vertical()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_vertical()",
+    "func_name": "blur_10_px_then_flip_vertical",
+    "description": "blurs an image by 10 pixels, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_12_blur(pixels=10),flip_vertical(),rotate(degrees=30)_fewshot": {
+    "signature": "image.blur(pixels=10).flip_vertical().rotate(degrees=30)",
+    "func_name": "blur_10_px_then_flip_vertical_then_rotate_30_degrees",
+    "description": "blurs an image by 10 pixels, then flips it vertically, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_12_blur(pixels=10),flip_vertical(),rotate(degrees=30),flip_horizontal()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_vertical().rotate(degrees=30).flip_horizontal()",
+    "func_name": "blur_10_px_then_flip_vertical_then_rotate_30_degrees_then_flip_horizontal",
+    "description": "blurs an image by 10 pixels, then flips it vertically, then rotates it 30 degrees, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_12_blur(pixels=10),flip_vertical(),rotate(degrees=30),flip_horizontal(),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.blur(pixels=10).flip_vertical().rotate(degrees=30).flip_horizontal().distort(pixels=image.get_width())",
+    "func_name": "blur_10_px_then_flip_vertical_then_rotate_30_degrees_then_flip_horizontal_then_distort",
+    "description": "blurs an image by 10 pixels, then flips it vertically, then rotates it 30 degrees, then flips it horizontally, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_12_blur(pixels=10),flip_vertical(),rotate(degrees=30),flip_horizontal(),distort(pixels=image.get_width()),rotate()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_vertical().rotate(degrees=30).flip_horizontal().distort(pixels=image.get_width()).rotate()",
+    "func_name": "blur_10_px_then_flip_vertical_then_rotate_30_degrees_then_flip_horizontal_then_distort_then_rotate",
+    "description": "blurs an image by 10 pixels, then flips it vertically, then rotates it 30 degrees, then flips it horizontally, then distorts it by the width of the image, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_12_blur(pixels=10),flip_vertical(),rotate(degrees=30),flip_horizontal(),distort(pixels=image.get_width()),rotate(),blur()_fewshot": {
+    "signature": "image.blur(pixels=10).flip_vertical().rotate(degrees=30).flip_horizontal().distort(pixels=image.get_width()).rotate().blur()",
+    "func_name": "blur_10_px_then_flip_vertical_then_rotate_30_degrees_then_flip_horizontal_then_distort_then_rotate_then_blur",
+    "description": "blurs an image by 10 pixels, then flips it vertically, then rotates it 30 degrees, then flips it horizontally, then distorts it by the width of the image, then rotates it by the given number of degrees, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_12_blur(pixels=10),flip_vertical(),rotate(degrees=30),flip_horizontal(),distort(pixels=image.get_width()),rotate(),blur(),rotate(degrees=60)_fewshot": {
+    "signature": "image.blur(pixels=10).flip_vertical().rotate(degrees=30).flip_horizontal().distort(pixels=image.get_width()).rotate().blur().rotate(degrees=60)",
+    "func_name": "blur_10_px_then_flip_vertical_then_rotate_30_degrees_then_flip_horizontal_then_distort_then_rotate_then_blur_then_rotate_60_degrees",
+    "description": "blurs an image by 10 pixels, then flips it vertically, then rotates it 30 degrees, then flips it horizontally, then distorts it by the width of the image, then rotates it by the given number of degrees, then blurs it by the given number of pixels, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_13_flip_vertical()_fewshot": {
+    "signature": "image.flip_vertical()",
+    "func_name": "flip_vertical",
+    "description": "flips an image vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_13_flip_vertical(),flip_horizontal()_fewshot": {
+    "signature": "image.flip_vertical().flip_horizontal()",
+    "func_name": "flip_vertical_then_flip_horizontal",
+    "description": "flips an image vertically, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_13_flip_vertical(),flip_horizontal(),rotate(degrees=30)_fewshot": {
+    "signature": "image.flip_vertical().flip_horizontal().rotate(degrees=30)",
+    "func_name": "flip_vertical_then_flip_horizontal_then_rotate_30_degrees",
+    "description": "flips an image vertically, then flips it horizontally, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_13_flip_vertical(),flip_horizontal(),rotate(degrees=30),distort(pixels=5)_fewshot": {
+    "signature": "image.flip_vertical().flip_horizontal().rotate(degrees=30).distort(pixels=5)",
+    "func_name": "flip_vertical_then_flip_horizontal_then_rotate_30_degrees_then_distort_5_px",
+    "description": "flips an image vertically, then flips it horizontally, then rotates it 30 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_13_flip_vertical(),flip_horizontal(),rotate(degrees=30),distort(pixels=5),rotate()_fewshot": {
+    "signature": "image.flip_vertical().flip_horizontal().rotate(degrees=30).distort(pixels=5).rotate()",
+    "func_name": "flip_vertical_then_flip_horizontal_then_rotate_30_degrees_then_distort_5_px_then_rotate",
+    "description": "flips an image vertically, then flips it horizontally, then rotates it 30 degrees, then distorts it by 5 pixels, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_13_flip_vertical(),flip_horizontal(),rotate(degrees=30),distort(pixels=5),rotate(),blur(pixels=10)_fewshot": {
+    "signature": "image.flip_vertical().flip_horizontal().rotate(degrees=30).distort(pixels=5).rotate().blur(pixels=10)",
+    "func_name": "flip_vertical_then_flip_horizontal_then_rotate_30_degrees_then_distort_5_px_then_rotate_then_blur_10_px",
+    "description": "flips an image vertically, then flips it horizontally, then rotates it 30 degrees, then distorts it by 5 pixels, then rotates it by the given number of degrees, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_13_flip_vertical(),flip_horizontal(),rotate(degrees=30),distort(pixels=5),rotate(),blur(pixels=10),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.flip_vertical().flip_horizontal().rotate(degrees=30).distort(pixels=5).rotate().blur(pixels=10).distort(pixels=image.get_width())",
+    "func_name": "flip_vertical_then_flip_horizontal_then_rotate_30_degrees_then_distort_5_px_then_rotate_then_blur_10_px_then_distort",
+    "description": "flips an image vertically, then flips it horizontally, then rotates it 30 degrees, then distorts it by 5 pixels, then rotates it by the given number of degrees, then blurs it by 10 pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_13_flip_vertical(),flip_horizontal(),rotate(degrees=30),distort(pixels=5),rotate(),blur(pixels=10),distort(pixels=image.get_width()),rotate(degrees=60)_fewshot": {
+    "signature": "image.flip_vertical().flip_horizontal().rotate(degrees=30).distort(pixels=5).rotate().blur(pixels=10).distort(pixels=image.get_width()).rotate(degrees=60)",
+    "func_name": "flip_vertical_then_flip_horizontal_then_rotate_30_degrees_then_distort_5_px_then_rotate_then_blur_10_px_then_distort_then_rotate_60_degrees",
+    "description": "flips an image vertically, then flips it horizontally, then rotates it 30 degrees, then distorts it by 5 pixels, then rotates it by the given number of degrees, then blurs it by 10 pixels, then distorts it by the width of the image, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_14_rotate()_fewshot": {
+    "signature": "image.rotate()",
+    "func_name": "rotate",
+    "description": "rotates an image by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_14_rotate(),blur()_fewshot": {
+    "signature": "image.rotate().blur()",
+    "func_name": "rotate_then_blur",
+    "description": "rotates an image by the given number of degrees, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_14_rotate(),blur(),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.rotate().blur().distort(pixels=image.get_width())",
+    "func_name": "rotate_then_blur_then_distort",
+    "description": "rotates an image by the given number of degrees, then blurs it by the given number of pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_14_rotate(),blur(),distort(pixels=image.get_width()),rotate(degrees=30)_fewshot": {
+    "signature": "image.rotate().blur().distort(pixels=image.get_width()).rotate(degrees=30)",
+    "func_name": "rotate_then_blur_then_distort_then_rotate_30_degrees",
+    "description": "rotates an image by the given number of degrees, then blurs it by the given number of pixels, then distorts it by the width of the image, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_14_rotate(),blur(),distort(pixels=image.get_width()),rotate(degrees=30),distort(pixels=5)_fewshot": {
+    "signature": "image.rotate().blur().distort(pixels=image.get_width()).rotate(degrees=30).distort(pixels=5)",
+    "func_name": "rotate_then_blur_then_distort_then_rotate_30_degrees_then_distort_5_px",
+    "description": "rotates an image by the given number of degrees, then blurs it by the given number of pixels, then distorts it by the width of the image, then rotates it 30 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_14_rotate(),blur(),distort(pixels=image.get_width()),rotate(degrees=30),distort(pixels=5),flip_vertical()_fewshot": {
+    "signature": "image.rotate().blur().distort(pixels=image.get_width()).rotate(degrees=30).distort(pixels=5).flip_vertical()",
+    "func_name": "rotate_then_blur_then_distort_then_rotate_30_degrees_then_distort_5_px_then_flip_vertical",
+    "description": "rotates an image by the given number of degrees, then blurs it by the given number of pixels, then distorts it by the width of the image, then rotates it 30 degrees, then distorts it by 5 pixels, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_14_rotate(),blur(),distort(pixels=image.get_width()),rotate(degrees=30),distort(pixels=5),flip_vertical(),blur(pixels=10)_fewshot": {
+    "signature": "image.rotate().blur().distort(pixels=image.get_width()).rotate(degrees=30).distort(pixels=5).flip_vertical().blur(pixels=10)",
+    "func_name": "rotate_then_blur_then_distort_then_rotate_30_degrees_then_distort_5_px_then_flip_vertical_then_blur_10_px",
+    "description": "rotates an image by the given number of degrees, then blurs it by the given number of pixels, then distorts it by the width of the image, then rotates it 30 degrees, then distorts it by 5 pixels, then flips it vertically, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_14_rotate(),blur(),distort(pixels=image.get_width()),rotate(degrees=30),distort(pixels=5),flip_vertical(),blur(pixels=10),rotate(degrees=60)_fewshot": {
+    "signature": "image.rotate().blur().distort(pixels=image.get_width()).rotate(degrees=30).distort(pixels=5).flip_vertical().blur(pixels=10).rotate(degrees=60)",
+    "func_name": "rotate_then_blur_then_distort_then_rotate_30_degrees_then_distort_5_px_then_flip_vertical_then_blur_10_px_then_rotate_60_degrees",
+    "description": "rotates an image by the given number of degrees, then blurs it by the given number of pixels, then distorts it by the width of the image, then rotates it 30 degrees, then distorts it by 5 pixels, then flips it vertically, then blurs it by 10 pixels, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_15_blur()_fewshot": {
+    "signature": "image.blur()",
+    "func_name": "blur",
+    "description": "blurs an image by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_15_blur(),rotate(degrees=60)_fewshot": {
+    "signature": "image.blur().rotate(degrees=60)",
+    "func_name": "blur_then_rotate_60_degrees",
+    "description": "blurs an image by the given number of pixels, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_15_blur(),rotate(degrees=60),flip_vertical()_fewshot": {
+    "signature": "image.blur().rotate(degrees=60).flip_vertical()",
+    "func_name": "blur_then_rotate_60_degrees_then_flip_vertical",
+    "description": "blurs an image by the given number of pixels, then rotates it 60 degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_15_blur(),rotate(degrees=60),flip_vertical(),rotate(degrees=30)_fewshot": {
+    "signature": "image.blur().rotate(degrees=60).flip_vertical().rotate(degrees=30)",
+    "func_name": "blur_then_rotate_60_degrees_then_flip_vertical_then_rotate_30_degrees",
+    "description": "blurs an image by the given number of pixels, then rotates it 60 degrees, then flips it vertically, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_15_blur(),rotate(degrees=60),flip_vertical(),rotate(degrees=30),blur(pixels=10)_fewshot": {
+    "signature": "image.blur().rotate(degrees=60).flip_vertical().rotate(degrees=30).blur(pixels=10)",
+    "func_name": "blur_then_rotate_60_degrees_then_flip_vertical_then_rotate_30_degrees_then_blur_10_px",
+    "description": "blurs an image by the given number of pixels, then rotates it 60 degrees, then flips it vertically, then rotates it 30 degrees, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_15_blur(),rotate(degrees=60),flip_vertical(),rotate(degrees=30),blur(pixels=10),rotate()_fewshot": {
+    "signature": "image.blur().rotate(degrees=60).flip_vertical().rotate(degrees=30).blur(pixels=10).rotate()",
+    "func_name": "blur_then_rotate_60_degrees_then_flip_vertical_then_rotate_30_degrees_then_blur_10_px_then_rotate",
+    "description": "blurs an image by the given number of pixels, then rotates it 60 degrees, then flips it vertically, then rotates it 30 degrees, then blurs it by 10 pixels, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_15_blur(),rotate(degrees=60),flip_vertical(),rotate(degrees=30),blur(pixels=10),rotate(),distort(pixels=5)_fewshot": {
+    "signature": "image.blur().rotate(degrees=60).flip_vertical().rotate(degrees=30).blur(pixels=10).rotate().distort(pixels=5)",
+    "func_name": "blur_then_rotate_60_degrees_then_flip_vertical_then_rotate_30_degrees_then_blur_10_px_then_rotate_then_distort_5_px",
+    "description": "blurs an image by the given number of pixels, then rotates it 60 degrees, then flips it vertically, then rotates it 30 degrees, then blurs it by 10 pixels, then rotates it by the given number of degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_15_blur(),rotate(degrees=60),flip_vertical(),rotate(degrees=30),blur(pixels=10),rotate(),distort(pixels=5),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.blur().rotate(degrees=60).flip_vertical().rotate(degrees=30).blur(pixels=10).rotate().distort(pixels=5).distort(pixels=image.get_width())",
+    "func_name": "blur_then_rotate_60_degrees_then_flip_vertical_then_rotate_30_degrees_then_blur_10_px_then_rotate_then_distort_5_px_then_distort",
+    "description": "blurs an image by the given number of pixels, then rotates it 60 degrees, then flips it vertically, then rotates it 30 degrees, then blurs it by 10 pixels, then rotates it by the given number of degrees, then distorts it by 5 pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_16_rotate(degrees=30)_fewshot": {
+    "signature": "image.rotate(degrees=30)",
+    "func_name": "rotate_30_degrees",
+    "description": "rotates an image 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_16_rotate(degrees=30),blur(pixels=10)_fewshot": {
+    "signature": "image.rotate(degrees=30).blur(pixels=10)",
+    "func_name": "rotate_30_degrees_then_blur_10_px",
+    "description": "rotates an image 30 degrees, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_16_rotate(degrees=30),blur(pixels=10),blur()_fewshot": {
+    "signature": "image.rotate(degrees=30).blur(pixels=10).blur()",
+    "func_name": "rotate_30_degrees_then_blur_10_px_then_blur",
+    "description": "rotates an image 30 degrees, then blurs it by 10 pixels, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_16_rotate(degrees=30),blur(pixels=10),blur(),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.rotate(degrees=30).blur(pixels=10).blur().distort(pixels=image.get_width())",
+    "func_name": "rotate_30_degrees_then_blur_10_px_then_blur_then_distort",
+    "description": "rotates an image 30 degrees, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_16_rotate(degrees=30),blur(pixels=10),blur(),distort(pixels=image.get_width()),distort(pixels=5)_fewshot": {
+    "signature": "image.rotate(degrees=30).blur(pixels=10).blur().distort(pixels=image.get_width()).distort(pixels=5)",
+    "func_name": "rotate_30_degrees_then_blur_10_px_then_blur_then_distort_then_distort_5_px",
+    "description": "rotates an image 30 degrees, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_16_rotate(degrees=30),blur(pixels=10),blur(),distort(pixels=image.get_width()),distort(pixels=5),rotate()_fewshot": {
+    "signature": "image.rotate(degrees=30).blur(pixels=10).blur().distort(pixels=image.get_width()).distort(pixels=5).rotate()",
+    "func_name": "rotate_30_degrees_then_blur_10_px_then_blur_then_distort_then_distort_5_px_then_rotate",
+    "description": "rotates an image 30 degrees, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image, then distorts it by 5 pixels, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_16_rotate(degrees=30),blur(pixels=10),blur(),distort(pixels=image.get_width()),distort(pixels=5),rotate(),flip_vertical()_fewshot": {
+    "signature": "image.rotate(degrees=30).blur(pixels=10).blur().distort(pixels=image.get_width()).distort(pixels=5).rotate().flip_vertical()",
+    "func_name": "rotate_30_degrees_then_blur_10_px_then_blur_then_distort_then_distort_5_px_then_rotate_then_flip_vertical",
+    "description": "rotates an image 30 degrees, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image, then distorts it by 5 pixels, then rotates it by the given number of degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_16_rotate(degrees=30),blur(pixels=10),blur(),distort(pixels=image.get_width()),distort(pixels=5),rotate(),flip_vertical(),rotate(degrees=60)_fewshot": {
+    "signature": "image.rotate(degrees=30).blur(pixels=10).blur().distort(pixels=image.get_width()).distort(pixels=5).rotate().flip_vertical().rotate(degrees=60)",
+    "func_name": "rotate_30_degrees_then_blur_10_px_then_blur_then_distort_then_distort_5_px_then_rotate_then_flip_vertical_then_rotate_60_degrees",
+    "description": "rotates an image 30 degrees, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image, then distorts it by 5 pixels, then rotates it by the given number of degrees, then flips it vertically, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_17_flip_horizontal()_fewshot": {
+    "signature": "image.flip_horizontal()",
+    "func_name": "flip_horizontal",
+    "description": "flips an image horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_17_flip_horizontal(),distort(pixels=5)_fewshot": {
+    "signature": "image.flip_horizontal().distort(pixels=5)",
+    "func_name": "flip_horizontal_then_distort_5_px",
+    "description": "flips an image horizontally, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_17_flip_horizontal(),distort(pixels=5),blur(pixels=10)_fewshot": {
+    "signature": "image.flip_horizontal().distort(pixels=5).blur(pixels=10)",
+    "func_name": "flip_horizontal_then_distort_5_px_then_blur_10_px",
+    "description": "flips an image horizontally, then distorts it by 5 pixels, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_17_flip_horizontal(),distort(pixels=5),blur(pixels=10),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.flip_horizontal().distort(pixels=5).blur(pixels=10).distort(pixels=image.get_width())",
+    "func_name": "flip_horizontal_then_distort_5_px_then_blur_10_px_then_distort",
+    "description": "flips an image horizontally, then distorts it by 5 pixels, then blurs it by 10 pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_17_flip_horizontal(),distort(pixels=5),blur(pixels=10),distort(pixels=image.get_width()),rotate(degrees=30)_fewshot": {
+    "signature": "image.flip_horizontal().distort(pixels=5).blur(pixels=10).distort(pixels=image.get_width()).rotate(degrees=30)",
+    "func_name": "flip_horizontal_then_distort_5_px_then_blur_10_px_then_distort_then_rotate_30_degrees",
+    "description": "flips an image horizontally, then distorts it by 5 pixels, then blurs it by 10 pixels, then distorts it by the width of the image, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_17_flip_horizontal(),distort(pixels=5),blur(pixels=10),distort(pixels=image.get_width()),rotate(degrees=30),flip_vertical()_fewshot": {
+    "signature": "image.flip_horizontal().distort(pixels=5).blur(pixels=10).distort(pixels=image.get_width()).rotate(degrees=30).flip_vertical()",
+    "func_name": "flip_horizontal_then_distort_5_px_then_blur_10_px_then_distort_then_rotate_30_degrees_then_flip_vertical",
+    "description": "flips an image horizontally, then distorts it by 5 pixels, then blurs it by 10 pixels, then distorts it by the width of the image, then rotates it 30 degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_17_flip_horizontal(),distort(pixels=5),blur(pixels=10),distort(pixels=image.get_width()),rotate(degrees=30),flip_vertical(),rotate(degrees=60)_fewshot": {
+    "signature": "image.flip_horizontal().distort(pixels=5).blur(pixels=10).distort(pixels=image.get_width()).rotate(degrees=30).flip_vertical().rotate(degrees=60)",
+    "func_name": "flip_horizontal_then_distort_5_px_then_blur_10_px_then_distort_then_rotate_30_degrees_then_flip_vertical_then_rotate_60_degrees",
+    "description": "flips an image horizontally, then distorts it by 5 pixels, then blurs it by 10 pixels, then distorts it by the width of the image, then rotates it 30 degrees, then flips it vertically, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_17_flip_horizontal(),distort(pixels=5),blur(pixels=10),distort(pixels=image.get_width()),rotate(degrees=30),flip_vertical(),rotate(degrees=60),rotate()_fewshot": {
+    "signature": "image.flip_horizontal().distort(pixels=5).blur(pixels=10).distort(pixels=image.get_width()).rotate(degrees=30).flip_vertical().rotate(degrees=60).rotate()",
+    "func_name": "flip_horizontal_then_distort_5_px_then_blur_10_px_then_distort_then_rotate_30_degrees_then_flip_vertical_then_rotate_60_degrees_then_rotate",
+    "description": "flips an image horizontally, then distorts it by 5 pixels, then blurs it by 10 pixels, then distorts it by the width of the image, then rotates it 30 degrees, then flips it vertically, then rotates it 60 degrees, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_18_distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.distort(pixels=image.get_width())",
+    "func_name": "distort",
+    "description": "distorts an image by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_18_distort(pixels=image.get_width()),rotate()_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate()",
+    "func_name": "distort_then_rotate",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_18_distort(pixels=image.get_width()),rotate(),rotate(degrees=30)_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().rotate(degrees=30)",
+    "func_name": "distort_then_rotate_then_rotate_30_degrees",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_18_distort(pixels=image.get_width()),rotate(),rotate(degrees=30),blur()_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().rotate(degrees=30).blur()",
+    "func_name": "distort_then_rotate_then_rotate_30_degrees_then_blur",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then rotates it 30 degrees, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_18_distort(pixels=image.get_width()),rotate(),rotate(degrees=30),blur(),flip_horizontal()_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().rotate(degrees=30).blur().flip_horizontal()",
+    "func_name": "distort_then_rotate_then_rotate_30_degrees_then_blur_then_flip_horizontal",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then rotates it 30 degrees, then blurs it by the given number of pixels, then flips it horizontally",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_18_distort(pixels=image.get_width()),rotate(),rotate(degrees=30),blur(),flip_horizontal(),blur(pixels=10)_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().rotate(degrees=30).blur().flip_horizontal().blur(pixels=10)",
+    "func_name": "distort_then_rotate_then_rotate_30_degrees_then_blur_then_flip_horizontal_then_blur_10_px",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then rotates it 30 degrees, then blurs it by the given number of pixels, then flips it horizontally, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_18_distort(pixels=image.get_width()),rotate(),rotate(degrees=30),blur(),flip_horizontal(),blur(pixels=10),rotate(degrees=60)_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().rotate(degrees=30).blur().flip_horizontal().blur(pixels=10).rotate(degrees=60)",
+    "func_name": "distort_then_rotate_then_rotate_30_degrees_then_blur_then_flip_horizontal_then_blur_10_px_then_rotate_60_degrees",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then rotates it 30 degrees, then blurs it by the given number of pixels, then flips it horizontally, then blurs it by 10 pixels, then rotates it 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_18_distort(pixels=image.get_width()),rotate(),rotate(degrees=30),blur(),flip_horizontal(),blur(pixels=10),rotate(degrees=60),distort(pixels=5)_fewshot": {
+    "signature": "image.distort(pixels=image.get_width()).rotate().rotate(degrees=30).blur().flip_horizontal().blur(pixels=10).rotate(degrees=60).distort(pixels=5)",
+    "func_name": "distort_then_rotate_then_rotate_30_degrees_then_blur_then_flip_horizontal_then_blur_10_px_then_rotate_60_degrees_then_distort_5_px",
+    "description": "distorts an image by the width of the image, then rotates it by the given number of degrees, then rotates it 30 degrees, then blurs it by the given number of pixels, then flips it horizontally, then blurs it by 10 pixels, then rotates it 60 degrees, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "1_19_rotate(degrees=60)_fewshot": {
+    "signature": "image.rotate(degrees=60)",
+    "func_name": "rotate_60_degrees",
+    "description": "rotates an image 60 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 2
+  },
+  "2_19_rotate(degrees=60),rotate()_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate()",
+    "func_name": "rotate_60_degrees_then_rotate",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 1
+  },
+  "3_19_rotate(degrees=60),rotate(),flip_vertical()_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_vertical()",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_vertical",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it vertically",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "4_19_rotate(degrees=60),rotate(),flip_vertical(),blur(pixels=10)_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_vertical().blur(pixels=10)",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_vertical_then_blur_10_px",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it vertically, then blurs it by 10 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "5_19_rotate(degrees=60),rotate(),flip_vertical(),blur(pixels=10),blur()_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_vertical().blur(pixels=10).blur()",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_vertical_then_blur_10_px_then_blur",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it vertically, then blurs it by 10 pixels, then blurs it by the given number of pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "6_19_rotate(degrees=60),rotate(),flip_vertical(),blur(pixels=10),blur(),distort(pixels=image.get_width())_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_vertical().blur(pixels=10).blur().distort(pixels=image.get_width())",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_vertical_then_blur_10_px_then_blur_then_distort",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it vertically, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "7_19_rotate(degrees=60),rotate(),flip_vertical(),blur(pixels=10),blur(),distort(pixels=image.get_width()),distort(pixels=5)_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_vertical().blur(pixels=10).blur().distort(pixels=image.get_width()).distort(pixels=5)",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_vertical_then_blur_10_px_then_blur_then_distort_then_distort_5_px",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it vertically, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image, then distorts it by 5 pixels",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  },
+  "8_19_rotate(degrees=60),rotate(),flip_vertical(),blur(pixels=10),blur(),distort(pixels=image.get_width()),distort(pixels=5),rotate(degrees=30)_fewshot": {
+    "signature": "image.rotate(degrees=60).rotate().flip_vertical().blur(pixels=10).blur().distort(pixels=image.get_width()).distort(pixels=5).rotate(degrees=30)",
+    "func_name": "rotate_60_degrees_then_rotate_then_flip_vertical_then_blur_10_px_then_blur_then_distort_then_distort_5_px_then_rotate_30_degrees",
+    "description": "rotates an image 60 degrees, then rotates it by the given number of degrees, then flips it vertically, then blurs it by 10 pixels, then blurs it by the given number of pixels, then distorts it by the width of the image, then distorts it by 5 pixels, then rotates it 30 degrees",
+    "fewshot": [
+      {
+        "signature": "image.compress()",
+        "func_name": "compress",
+        "description": "compresses an image by the given number of pixels"
+      }
+    ],
+    "num_distractors": 0
+  }
+}

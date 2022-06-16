@@ -1,0 +1,254 @@
+{
+  "solids-volume_of_cone-0-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 0,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-1-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 1,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-1-1": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 1,
+    "target_func_location": 1
+  },
+  "solids-volume_of_cone-2-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 2,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-2-1": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 2,
+    "target_func_location": 1
+  },
+  "solids-volume_of_cone-2-2": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 2,
+    "target_func_location": 2
+  },
+  "solids-volume_of_cone-3-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 3,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-3-1": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 3,
+    "target_func_location": 1
+  },
+  "solids-volume_of_cone-3-2": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 3,
+    "target_func_location": 2
+  },
+  "solids-volume_of_cone-3-3": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 3,
+    "target_func_location": 3
+  },
+  "solids-volume_of_cone-4-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 4,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-4-1": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 4,
+    "target_func_location": 1
+  },
+  "solids-volume_of_cone-4-2": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 4,
+    "target_func_location": 2
+  },
+  "solids-volume_of_cone-4-3": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 4,
+    "target_func_location": 3
+  },
+  "solids-volume_of_cone-4-4": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 4,
+    "target_func_location": 4
+  },
+  "solids-volume_of_cone-5-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 5,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-5-1": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 5,
+    "target_func_location": 1
+  },
+  "solids-volume_of_cone-5-2": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 5,
+    "target_func_location": 2
+  },
+  "solids-volume_of_cone-5-3": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 5,
+    "target_func_location": 3
+  },
+  "solids-volume_of_cone-5-4": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 5,
+    "target_func_location": 4
+  },
+  "solids-volume_of_cone-5-5": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 5,
+    "target_func_location": 5
+  },
+  "solids-volume_of_cone-6-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 6,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-6-1": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 6,
+    "target_func_location": 1
+  },
+  "solids-volume_of_cone-6-2": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 6,
+    "target_func_location": 2
+  },
+  "solids-volume_of_cone-6-3": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 6,
+    "target_func_location": 3
+  },
+  "solids-volume_of_cone-6-4": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 6,
+    "target_func_location": 4
+  },
+  "solids-volume_of_cone-6-5": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 6,
+    "target_func_location": 5
+  },
+  "solids-volume_of_cone-6-6": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 6,
+    "target_func_location": 6
+  },
+  "solids-volume_of_cone-7-0": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 0
+  },
+  "solids-volume_of_cone-7-1": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 1
+  },
+  "solids-volume_of_cone-7-2": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 2
+  },
+  "solids-volume_of_cone-7-3": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 3
+  },
+  "solids-volume_of_cone-7-4": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 4
+  },
+  "solids-volume_of_cone-7-5": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 5
+  },
+  "solids-volume_of_cone-7-6": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 6
+  },
+  "solids-volume_of_cone-7-7": {
+    "signature": "solids.volume_of_cone()",
+    "description": "gets the volume of a cone with the given radius and height",
+    "func_name": "get_volume_of_cone",
+    "num_distractors": 7,
+    "target_func_location": 7
+  }
+}

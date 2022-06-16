@@ -1,0 +1,55 @@
+{
+  "id": "image",
+  "library_name": "image",
+  "style": "class",
+  "functions": [
+    {
+      "function_name": "rotate",
+      "documentation": "returns the image rotated by [number of degrees|degrees]",
+      "arglist": ["degrees"],
+      "return_type": "image"
+    },
+    {
+      "function_name": "flip_horizontal",
+      "documentation": "returns the image flipped horizontally",
+      "arglist": [],
+      "return_type": "image"
+    },
+    {
+      "function_name": "flip_vertical",
+      "documentation": "returns the image flipped vertically",
+      "arglist": [],
+      "return_type": "image"
+    },
+    {
+      "function_name": "blur",
+      "documentation": "returns the image blurred by [number of pixels|pixels]",
+      "arglist": ["pixels"],
+      "return_type": "image"
+    },
+    {
+      "function_name": "distort",
+      "documentation": "returns the image distorted by [number of pixels|pixels]",
+      "arglist": ["pixels"],
+      "return_type": "image"
+    },
+    {
+      "function_name": "get_width",
+      "documentation": "gets the width of the image",
+      "arglist": [],
+      "return_type": "float"
+    },
+    {
+      "function_name": "get_height",
+      "documentation": "gets the height of the image",
+      "arglist": [],
+      "return_type": "float"
+    },
+    {
+      "function_name": "compress",
+      "documentation": "returns a compressed version of the image",
+      "arglist": [],
+      "return_type": "image"
+    }
+  ]
+}

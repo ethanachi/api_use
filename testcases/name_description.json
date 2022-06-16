@@ -1,0 +1,1402 @@
+{
+  "2__none_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__none_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__none_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__none_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__none_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__none_empty_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2__none_empty_descriptive_none": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2__none_empty_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2__none_empty_none_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2__none_empty_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2__none_swap_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2__none_swap_descriptive_none": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2__none_swap_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2__none_swap_none_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2__none_swap_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2__number_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__number_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__number_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__number_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "func",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__number_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__swap_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__swap_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__swap_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its radius and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__swap_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "func",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2__swap_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone()",
+    "description": "computes the volume of a cone given its radius and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_none_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_none_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_none_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cylinder with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_none_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_none_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cylinder_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_none_empty_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0_none_empty_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0_none_empty_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cylinder with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0_none_empty_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0_none_empty_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cylinder_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0_none_swap_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0_none_swap_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0_none_swap_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cylinder with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0_none_swap_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0_none_swap_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cylinder_with_radius_7",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0_number_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_number_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_number_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cylinder with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_number_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "func",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_number_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cylinder_with_radius_7",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_swap_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_swap_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_swap_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cylinder with radius 7 given its height",
+    "func_name": "get_volume_of_cone_with_radius_7",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_swap_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "func",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0_swap_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7)",
+    "description": "computes the volume of a cone with radius 7 given its height",
+    "func_name": "get_volume_of_cylinder_with_radius_7",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_none_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_none_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_none_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cylinder with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_none_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_none_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cylinder_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_none_empty_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0,1_none_empty_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0,1_none_empty_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cylinder with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0,1_none_empty_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0,1_none_empty_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cylinder_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "2_0,1_none_swap_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0,1_none_swap_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0,1_none_swap_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cylinder with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0,1_none_swap_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0,1_none_swap_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cylinder_with_radius_7_and_height_1",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "2_0,1_number_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_number_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_number_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cylinder with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_number_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "func",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_number_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cylinder_with_radius_7_and_height_1",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_swap_none_descriptive_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_swap_none_descriptive_none": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_swap_none_descriptive_adversarial": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cylinder with radius 7 and height 1",
+    "func_name": "get_volume_of_cone_with_radius_7_and_height_1",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_swap_none_none_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "func",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "2_0,1_swap_none_adversarial_descriptive": {
+    "signature": "solids2.volume_of_cone(radius=7, height=1)",
+    "description": "computes the volume of a cone with radius 7 and height 1",
+    "func_name": "get_volume_of_cylinder_with_radius_7_and_height_1",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__none_none_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__none_none_descriptive_none": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__none_none_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__none_none_none_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__none_none_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__none_empty_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3__none_empty_descriptive_none": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3__none_empty_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3__none_empty_none_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3__none_empty_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3__none_swap_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3__none_swap_descriptive_none": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3__none_swap_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3__none_swap_none_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3__none_swap_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3__number_none_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__number_none_descriptive_none": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__number_none_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__number_none_none_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "func",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__number_none_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__swap_none_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__swap_none_descriptive_none": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__swap_none_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cylinder given its length, width and height",
+    "func_name": "get_volume_of_cone",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__swap_none_none_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "func",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3__swap_none_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone()",
+    "description": "computes the volume of a cone given its length, width and height",
+    "func_name": "get_volume_of_cylinder",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_none_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_none_descriptive_none": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_none_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_none_none_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_none_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_empty_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_empty_descriptive_none": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_empty_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_empty_none_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_empty_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_swap_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_swap_descriptive_none": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_swap_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_swap_none_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3_0,1,2_none_swap_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "3_0,1,2_number_none_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_number_none_descriptive_none": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_number_none_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_number_none_none_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "func",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_number_none_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_swap_none_descriptive_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_swap_none_descriptive_none": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_swap_none_descriptive_adversarial": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_swap_none_none_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "func",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "3_0,1,2_swap_none_adversarial_descriptive": {
+    "signature": "solids3.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_none_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_none_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_none_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_none_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_none_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_empty_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_empty_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_empty_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_empty_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_empty_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_swap_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_swap_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_swap_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_swap_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2_none_swap_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2_number_none_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_number_none_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_number_none_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_number_none_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "func",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_number_none_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_swap_none_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_swap_none_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_swap_none_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cylinder with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_swap_none_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "func",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2_swap_none_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6)",
+    "description": "computes the volume of a cone with length 7, width 1 and height 6 given its depth",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_none_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_none_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_none_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cylinder with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_none_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_none_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_empty_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_empty_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_empty_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cylinder with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_empty_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_empty_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "empty",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_swap_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_swap_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_swap_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cylinder with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_swap_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "func",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_none_swap_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "none",
+    "description_noise_type": "swap",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_number_none_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_number_none_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_number_none_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cylinder with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_number_none_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "func",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_number_none_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "number",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_swap_none_descriptive_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_swap_none_descriptive_none": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_swap_none_descriptive_adversarial": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cylinder with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cone_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_swap_none_none_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "func",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  },
+  "4_0,1,2,3_swap_none_adversarial_descriptive": {
+    "signature": "solids4.volume_of_cone(length=7, width=1, height=6, depth=8)",
+    "description": "computes the volume of a cone with length 7, width 1, height 6 and depth 8",
+    "func_name": "get_volume_of_cylinder_with_length_7_and_width_1_and_height_6_and_depth_8",
+    "function_noise_type": "swap",
+    "description_noise_type": "none",
+    "num_distractors": 4
+  }
+}
