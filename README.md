@@ -1,7 +1,8 @@
 # API Use Benchmark
 
+Try the demo Colab: 
 
-[Try the demo Colab: <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>](https://colab.research.google.com/github/ethanachi/api_use/blob/main/demo_colab.ipynb)
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>](https://colab.research.google.com/github/ethanachi/api_use/blob/main/demo_colab.ipynb)
 
 The **Synthetic API Use** package aims to evaluate large language models (LLMs)' ability to
 perform tool use during code generation.
@@ -9,10 +10,10 @@ Standard analysis of this nature is confounded by **memorization**--On one hand,
 interview"-type questions, which one might expect to require extensive compositional reasoning, are
 surprisingly easy to solve for language models, while on the other hand, LLMs can
 often struggle given a less common but perfectly reasonably formulated question, instead providing
-answers to a more common prompt (Figure 1).
+answers to a more common prompt.
 
-This package enables sidestepping these questions through by evaluating models on \textit{synthetic} programming problems.
-Each of our generated problems relies upon \textbf{synthetic libraries}: end-user-defined Python libraries with no actual code definitions, merely natural-language documentation.
+This package enables sidestepping these questions through by evaluating models on *synthetic* programming problems.
+Each of our generated problems relies upon **synthetic libraries**: end-user-defined Python libraries with no actual code definitions, merely natural-language documentation.
 
 The benchmark consists of synthetic API's: synthetic Python libraries,
 each of which tests various facets of reasoning in code synthesis. 
